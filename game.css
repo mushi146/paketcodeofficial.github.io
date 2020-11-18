@@ -1,0 +1,190 @@
+/* Add some margin to the page and set a default font and colour */
+img{
+  border-radius: 10px;
+  width: 140px;
+  height: 200px;
+}
+
+body {
+  margin: 30px;
+  font-family: "Georgia", serif;
+  line-height: 1.8em;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+#content {
+  margin: 80px 70px;
+  text-align: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+.wideBox {
+  clear: both;
+  text-align: center;
+  margin: 70px;
+  padding: 10px;
+  background: #ebedf2;
+  border: 1px solid #333;
+}
+
+.wideBox h1 {
+  font-weight: bold;
+  margin: 70px;
+  color: #666;
+  font-size: 1.5em;
+}
+
+
+#set2 {
+  margin: 50px auto 0 auto;
+  background: #ddf;
+}
+
+/* The initial pile of unsorted cards */
+
+#set1 {
+  margin: 0 auto;
+  background: #ffd;
+}
+
+#set2, #set1 {
+  
+  height: 200px;
+  padding: 20px;
+  border: 2px solid #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+}
+
+/* Individual cards and slots */
+
+#set2 div, #set1 div {
+  float: left;
+  width: 140px;
+  height: 200px;
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 0;
+  border: 2px solid #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 0 0 10px;
+  background: #fff;
+}
+
+#set2 div:first-child, #set1 div:first-child {
+  margin-left: 0;
+}
+
+#set2 div.hovered {
+  background: #aaa;
+}
+
+#set2 div {
+  border-style: dashed;
+}
+
+#set1 div {
+  background: #666;
+  color: #fff;
+  font-size: 50px;
+  text-shadow: 0 0 3px #000;
+}
+
+#set1 div.ui-draggable-dragging {
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+
+#EntranceMessage {
+  position: absolute;
+  left: 580px;
+  top: 250px;
+  width: 0;
+  height: 0;
+  z-index: 100;
+  background: #dfd;
+  border: 2px solid #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
+  box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
+  padding: 20px;
+}
+input[type=text]{
+  border:2px solid black;
+  color: #000;
+}
+input[type=text]
+{
+	 width: 240px;
+	 text-align: center;
+	 background: transparent;
+	 border: none;
+	 border-bottom: 1px solid #fff;
+	 font-family: 'Play',sans-serif;
+	 font-weight:200px;
+	 font-size:16px;
+	 padding: 10px 0;
+	 transition: border 0.5s;
+	 outline: none;
+	 color: #000;
+}
+button{
+	border:none;
+	width: 100px;
+	background: #000;
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+}	
+button:hover{
+	border:none;
+	width: 100px;
+	background: #aaa;
+	color: black;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+}	
+
+/* "You did it!" message */
+#successMessage {
+  position: absolute;
+  left: 580px;
+  top: 250px;
+  width: 0;
+  height: 0;
+  z-index: 100;
+  background: #dfd;
+  border: 2px solid #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
+  box-shadow: .3em .3em .5em rgba(0, 0, 0, .8);
+  padding: 20px;
+}
